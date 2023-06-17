@@ -1,0 +1,57 @@
+.addContainer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addContainer form {
+  width: 420px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: relative;
+}
+
+.addContainer form input {
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.addContainer form label {
+  font-size: 18px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.tableContainer {
+  margin-top: 50px;
+}
+
+.tableContainer table thead tr {
+  color: green;
+  background-color: rgb(221, 217, 217);
+}
+
+.tableContainer table thead tr {
+  align-items: center;
+}
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td {
+  min-width: 200px;
+  padding: 7px;
+  border-radius: 1px solid black;
+}
